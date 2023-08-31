@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block contents %}
+<style>
+iframe{
+	margin-top: 35px;
+}
+a{
+        font-size:14px;
+        color: black;
+	margin-left: 10px;
+	margin-right:10px;
+}
+
+</style>
+<h1 style="text-align:center">Jogos de aviator</h1>
+
+<center style="width: 100%;">
+	<iframe src="aviators_blaze" style="width:80%;border: 4px solid grey;height: 300px;"></iframe>
+</center>
+<div>
+  <div style="float:left;">
+	  <b><a href="betfair">BetFair</a></b>
+  </div>
+  <div style="float:right;">
+	  <b><a href="estrela">Estrela Bet</a></b>
+  </div>
+</div>
+{% endblock %}
